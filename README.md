@@ -1,4 +1,48 @@
 # React + Vite
+# Employee Management App
+
+A simple employee management application built with React, Vite, and Axios.
+
+## Features
+- Add employees
+- View all employees
+- Edit employee details
+- Delete employees
+- Connect to a NestJS backend API
+
+## Prerequisites
+- Node.js and npm installed
+- Backend API running
+
+## Installation
+
+```bash
+npm install
+```
+
+## Run the Application
+
+```bash
+npm run dev
+```
+
+Open the URL shown in the terminal, usually:
+
+http://localhost:5173
+
+## Backend API
+
+The application connects to the NestJS backend at:
+
+`http://localhost:3000/api/employees`
+
+Ensure the backend is running before using the application.
+
+## Build for Production
+
+```bash
+npm run build
+```
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
